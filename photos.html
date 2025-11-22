@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Photos</title>
+  <link rel="stylesheet" href="css/style.css"> <!-- your existing CSS -->
+  <style>
+    body {
+      background: #f9f9f9;
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      padding: 10px;
+      text-align: center;
+      background: #fff0f5;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #eb7da5;
+      font-weight: 500;
+    }
+    h1 {
+      text-align: center;
+      margin: 30px 0;
+      color: #eb7da5;
+    }
+    .photo-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      padding: 20px;
+    }
+    .photo-gallery img {
+      max-width: 250px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+
+  <h1>My Photos</h1>
+
+  <div class="photo-gallery">
+    <img src="images/photo1.jpg" alt="Description 1">
+    <img src="images/photo2.jpg" alt="Description 2">
+    <img src="images/photo3.jpg" alt="Description 3">
+    <!-- Add more images by copying the line above and changing the file name -->
+  </div>
+</body>
+</html>
